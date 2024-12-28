@@ -9,7 +9,7 @@ from py4web import Session, Cache, Translator, DAL, Field, action
 from py4web.utils.mailer import Mailer
 from py4web.utils.auth import Auth
 from py4web.utils.downloader import downloader
-from py4web.utils.tags import Tags
+from pydal.tools.tags import Tags
 from py4web.utils.factories import ActionFactory
 from py4web.utils.form import FormStyleDefault, FormStyleBulma
 from py4web.utils.grid import GridClassStyleBulma
